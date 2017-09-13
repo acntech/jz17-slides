@@ -4,10 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>DevOps for oss Dødelige</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/serif.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +24,344 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+        <section>
+            <h1>DevOps</h1>
+            <h3>for oss dødelige</h2>
+        </section>
+
+        <section>
+			<div style="display: flex; align-items: center;">
+	            <div style="width: 40%; display: inline-block;">
+	                <img src="images/khaugene.jpg" style="border: 0"/>
+	            </div>
+	            <div style="width: 50%; display: inline-block;">
+	                <h2>Kristian Haugene</h2>
+	                <h5>Utvikler</h5>
+	                <h5>DevOps entusiast</h5>
+	                <h5>Docker nerd</h5>
+	                <h5>Reise - Dykking - Kaffe</h5>
+	            </div>
+            </div>
+        </section>
+
+        <section>
+        	<h3>Utfordring:</h3>
+	        <ul>
+        		<li>Mange utviklere</li>
+                <li>Samme kodebase</li>
+        		<li>Få testmiljøer</li>
+	        </ul>
+        </section>
+
+        <section>
+        	<h3>Ønske:</h3>
+	        <ul>
+                <li>Støtte­verktøy for utviklere</li> 
+                <li>Større grad av automatisert test</li>
+                <li>Enklere å teste features separat</li>
+	        </ul>
+        </section>
+
+        <section>
+            <img src="images/silver_bullet.png" style="border: 0; background-color: transparent; box-shadow: none;"/>
+        </section>
+
+        <section>
+            <img src="images/ppp.png" style="border: 0; background-color: transparent; box-shadow: none; height: 70%; width: 70%"/>
+        </section>
+        
+        <section>
+            <div>
+                <img src="images/glue.png" style="border: 0; background-color: transparent; box-shadow: none; height: 25%; width: 25%; margin-right: 2em" />
+                <img src="images/tape.png" style="display: inline-block; border: 0; background-color: transparent; box-shadow: none; height: 20%; width: 20%" />
+            </div>
+            <hr>
+            <div>
+                <img src="images/docker.png" style="display: inline-block; border: 0; background-color: transparent; box-shadow: none; height: 30%; width: 30%; margin-right: 2em" />
+                <img src="images/jenkins.png" style="display: inline-block; border: 0; background-color: transparent; box-shadow: none; height: 30%; width: 30%" />
+                <img src="images/rundeck.png" style="display: inline-block; border: 0; background-color: transparent; box-shadow: none; height: 30%; width: 30%" />
+            </div>
+        </section>
+
+		<section>
+			<img src="images/demo.gif" style="border: 0; background-color: transparent; box-shadow: none; height: 70%; width: 70%"/>
+			<h2>Vi kjører demo!</h2>
+		</section>
+
+		<section>
+            <a href="http://jz17demo.acntech.no" target="_blank" style="font-size: 2em;">jz17demo.acntech.no</a>
+		</section>
+
+        <section>
+            <img src="images/ppp.png" style="border: 0; background-color: transparent; box-shadow: none; height: 70%; width: 70%"/>
+        </section>
+
+        <section data-transition="slide-in none-out">
+            <div style="width: 10%; display: inline-block;">
+                <img src="images/silhuette-one.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Produkteier</small>
+            </div>
+            <div style="width: 8%; display: inline-block;">
+                <img src="images/wall.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 60%;"/>
+            </div>
+            <div style="width: 20%; display: inline-block;">
+                <img src="images/silhuette-three.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Test og utvikling</small>
+            </div>
+            <div style="width: 8%; display: inline-block;">
+                <img src="images/wall.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 60%;"/>
+            </div>
+            <div style="width: 15%; display: inline-block;">
+                <img src="images/silhuette-two.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Drift</small>
+            </div>
+            <div style="width: 8%; display: inline-block;">
+                <img src="images/wall.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 60%;"/>
+            </div>
+            <div style="width: 20%; display: inline-block;">
+                <img src="images/silhuette-four.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Kunder og brukere</small>
+            </div>
+        </section>
+
+        <section data-transition="none">
+            <div style="width: 10%; display: inline-block;">
+                <img src="images/silhuette-one.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Produkteier</small>
+            </div>
+            <div style="width: 8%; display: inline-block; position: relative; top: 70%; transform: translateY(-30%);">
+                <small>Agile Manifesto</small>
+                <img src="images/arrow.png"
+                     style="border: 0; margin: 0; background-color: transparent; box-shadow: none;"/>
+                <small>2001</small>
+            </div>
+            <div style="width: 20%; display: inline-block;">
+                <img src="images/silhuette-three.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Test og utvikling</small>
+            </div>
+            <div style="width: 8%; display: inline-block;">
+                <img src="images/wall.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 60%;"/>
+            </div>
+            <div style="width: 15%; display: inline-block;">
+                <img src="images/silhuette-two.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Drift</small>
+            </div>
+            <div style="width: 8%; display: inline-block;">
+                <img src="images/wall.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 60%;"/>
+            </div>
+            <div style="width: 20%; display: inline-block;">
+                <img src="images/silhuette-four.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Kunder og brukere</small>
+            </div>
+        </section>
+
+        <section data-transition="none">
+            <div style="width: 10%; display: inline-block;">
+                <img src="images/silhuette-one.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Produkteier</small>
+            </div>
+            <div style="width: 8%; display: inline-block; position: relative; top: 70%; transform: translateY(-30%);">
+                <small>Agile Manifesto</small>
+                <img src="images/arrow.png"
+                     style="border: 0; margin: 0; background-color: transparent; box-shadow: none;"/>
+                <small>2001</small>
+            </div>
+            <div style="width: 20%; display: inline-block;">
+                <img src="images/silhuette-three.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Test og utvikling</small>
+            </div>
+            <div style="width: 8%; display: inline-block; position: relative; top: 70%; transform: translateY(-30%);">
+                <small>DevOps</small>
+                <img src="images/arrow.png"
+                     style="border: 0; margin: 0; background-color: transparent; box-shadow: none;"/>
+                <small>2008</small>
+            </div>
+            <div style="width: 15%; display: inline-block;">
+                <img src="images/silhuette-two.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Drift</small>
+            </div>
+            <div style="width: 8%; display: inline-block;">
+                <img src="images/wall.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 60%;"/>
+            </div>
+            <div style="width: 20%; display: inline-block;">
+                <img src="images/silhuette-four.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Kunder og brukere</small>
+            </div>
+        </section>
+
+        <section data-transition="none">
+            <div style="width: 10%; display: inline-block;">
+                <img src="images/silhuette-one.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Produkteier</small>
+            </div>
+            <div style="width: 8%; display: inline-block; position: relative; top: 70%; transform: translateY(-30%);">
+                <small>Agile Manifesto</small>
+                <img src="images/arrow.png"
+                     style="border: 0; margin: 0; background-color: transparent; box-shadow: none;"/>
+                <small>2001</small>
+            </div>
+            <div style="width: 20%; display: inline-block;">
+                <img src="images/silhuette-three.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Test og utvikling</small>
+            </div>
+            <div style="width: 8%; display: inline-block; position: relative; top: 70%; transform: translateY(-30%);">
+                <small>DevOps</small>
+                <img src="images/arrow.png"
+                     style="border: 0; margin: 0; background-color: transparent; box-shadow: none;"/>
+                <small>2008</small>
+            </div>
+            <div style="width: 15%; display: inline-block;">
+                <img src="images/silhuette-two.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Drift</small>
+            </div>
+            <div style="width: 8%; display: inline-block; position: relative; top: 70%; transform: translateY(-30%);">
+                <small>Lean Startup</small>
+                <img src="images/arrow.png"
+                     style="border: 0; margin: 0; background-color: transparent; box-shadow: none; "/>
+                <small>2011</small>
+            </div>
+            <div style="width: 20%; display: inline-block;">
+                <img src="images/silhuette-four.png"
+                     style="border: 0; background-color: transparent; box-shadow: none; height: 100%; width: auto;"/>
+                <small>Kunder og brukere</small>
+            </div>
+        </section>
+
+        <section>
+            <q style="padding-bottom: 1em; display: block;">We have come to value:</q>
+
+            <div style="width: 45%; white-space: nowrap; display: inline-block;">
+                <span style="color: purple;">Individuals and interactions</span><br>
+                <span style="color: purple;">Working software</span><br>
+                <span style="color: purple;">Customer collaboration</span><br>
+                <span style="color: purple;">Responding to change</span><br>
+            </div>
+            <div style="width: 15%; white-space: nowrap; display: inline-block;">
+                <span style="color: orange">over</span><br>
+                <span style="color: orange">over</span><br>
+                <span style="color: orange">over</span><br>
+                <span style="color: orange">over</span><br>
+            </div>
+            <div style="width: 35%; white-space: nowrap; display: inline-block;">
+                <span style="color: red;">processes and tools</span><br>
+                <span style="color: red">comprehensive documentation</span><br>
+                <span style="color: red">contract negotiation</span><br>
+                <span style="color: red">following a plan</span><br>
+            </div>
+
+            <p style="padding-top: 1em;">
+                <blockquote style="width: 85%">
+                    That is, while there is value in the items on the right,<br>
+                    we <span style="font-size: 1.4em; color: purple">value</span> the items on the left <span style="font-size: 1.4em; color: green;">more</span>.
+                </blockquote>
+            </p>
+        </section>
+
+		<section>
+			<h1>Reduce Waste!</h1>
+		</section>
+
+        <section>
+            <section>
+                <h2>Men hvordan?</h2>
+            </section>
+            <section>
+            	<h2>Færre barrierer</h2>
+                <img src="images/first-way.jpg" style="border: 0;"/>
+            </section>
+            <section>
+                <h2>Mer feedback</h2>
+                <img src="images/second-way.jpg" style="border: 0;"/>
+            </section>
+            <section>
+                <h2>Prøv og feil</h2>
+                <img src="images/third-way.jpg" style="border: 0;"/>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>New Public Management</h2>
+                <blockquote cite="https://en.wikipedia.org/wiki/New_public_management">
+                    &ldquo;... developed during the 1980s as part of an effort to make the public service more "businesslike" and to improve its efficiency by using private sector management models.&ldquo;
+                </blockquote>           
+            </section>
+
+    		<section>
+    			<h2>New Public Management</h2>
+    			<blockquote cite="https://no.wikipedia.org/wiki/New_public_management" class="fragment">
+    				&ldquo;Resultatenhetene styres med måleindikatorer som kan vurderes som oppfylte eller ikke&ldquo;
+    			</blockquote>
+    			<blockquote cite="https://no.wikipedia.org/wiki/New_public_management" class="fragment">
+    				&ldquo;... incitamenter til å yte mer gjennom bruk av prestasjonslønn, resultatfinansiering og kontrakter. Men også i enkelte tilfeller sanksjoner dersom mål ikke nås.&ldquo;
+    			</blockquote>
+    		</section>
+
+    		<section>
+    			<h2>New Public Management</h2>
+    			<blockquote cite="http://www.lakartidningen.se/Aktuellt/Nyheter/2015/09/Tillitsreform-ska-minska-detaljstyrningen/">
+    				&ldquo;Det finns mätningar som visar att av en arbetstimme använder en socialrådgivare 45 minuter till rapportering och dokumentation, så att det bara återstår 15 minuter till att träffa klienterna.&ldquo;
+    			</blockquote>			
+    		</section>
+
+    		<section>
+    			<h2>New Public Management</h2>
+    			<blockquote cite="http://www.denoffentlige.dk/bombe-under-30-aars-styringstaenkning-hood-og-dixon-laegger-new-public-management-i-graven">
+    				&ldquo;Sagen er nemlig, at englænderne hverken har fået ’mere for mindre’ eller ’mindre for mindre’. De har i stedet fået ’mindre for mere’: mindre servicekvalitet for flere penge.&ldquo;
+    			</blockquote>			
+    		</section>
+        </section>
+
+        <section>
+			<img src="images/new_public_management.png" style="border: 0;"/>
+		</section>
+
+        <section>
+            <h2>!SCRUM v2.0</h2>
+        </section>
+
+        <section data-transition="fade">
+        	<h2>Husk...</h2>
+        	<small style="font-size: 1.2em;">
+                DevOps er en kultur, <br>ikke en teknisk utfordring
+            </small>
+        </section>
+        <section data-transition="fade">
+            <h2>Husk...</h2>
+            <small style="font-size: 1.2em;">
+                Du trenger ingen DevOps-strategi<br>
+                for å bruke litt superlim og gaffa
+            </small>
+        </section>
+
+        <section>
+            <h3>Takk for oppmerksomheten!</h3>
+        </section>
+
+        <section>
+            <h1>QA</h1>
+        </section>
 			</div>
 		</div>
 
@@ -37,6 +373,11 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+
+				history: true,
+				controls: false,
+				progress: false,
+
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
